@@ -1,0 +1,164 @@
+@import "../reset.css";
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../font_Roboto/Roboto-Regular.woff2") format('woff2');
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: black;
+
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+ h4{
+    font-size:2.4rem;
+    line-height: 1.167;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 9px;
+
+
+}
+ p {
+    font-size:1.8rem;
+    line-height: 1.167;
+    text-align: left;
+}
+/*Start option 1*/
+
+.option1 {
+    /*float-displace: line;*/
+    height: 241px;
+    background-color: lightcyan;
+}
+
+.option1_img{
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-right: 18px;
+    width: 97px;
+    height: 100px;
+    border-radius: 67px;
+}
+/*End option 1*/
+
+/*Start option 2*/
+.option2 {
+    display: flex;
+    height: 241px;
+    background-color: ghostwhite;
+}
+
+.option2_img{
+    width: 97px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-right: 18px;
+    border-radius: 67px;
+}
+/*End option 2*/
+
+/*Start option 3*/
+.option3 {
+
+    height: 241px;
+    background-color: azure;
+}
+.option3_img{
+    position: absolute;
+    width: 97px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 35px;
+    border-radius: 67px;
+}
+.option3_text{
+    position: relative;
+    margin-left: 145px;
+}
+/*End option 3*/
+
+/*Start option 4*/
+.option4{
+    height: 241px;
+    width: 100vw;
+    background-color: lemonchiffon;
+    list-style: none;
+    vertical-align: top;
+}
+td{
+    width: 95%;
+}
+td:first-child {
+    width: 5%;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 18px;
+}
+.option4_img{
+    width: 97px;
+    height: 100px;
+    border-radius: 67px;
+}
+/*End option 4*/
+
+/*Start option 5*/
+.option5 {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    height: 241px;
+    background-color: khaki;
+
+}
+.option5_img{
+    width: 97px;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 18px;
+    border-radius: 67px;
+}
+/*End option 5*/
+
+/*Start option 6*/
+.option6{
+    height: 241px;
+    background-color: lightgreen;
+    background-image: url("man_1.png");
+    background-repeat: no-repeat;
+    background-position: 30px 35px ;
+    padding-left: 145px;
+}
+/*End option 6*/
+
+/*Start option 7*/
+.option7 {
+    height: 241px;
+    background-color: ivory;
+}
+.option7_img{
+    float: left;
+    width: 97px;
+    height: 100px;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 18px;
+    border-radius: 67px;
+}
+.text-7{
+    float: left;
+}
+/*End option 7*/
